@@ -1,0 +1,6 @@
+aws_region      = "us-east-2"
+cluster_name    = "prod-neptune-cluster"
+instance_class  = "db.r6g.xlarge"
+vpc_cidr        = "172.16.0.0/16"
+public_subnet_cidr  = "172.16.10.0/24"
+private_subnet_cidr = "172.16.20.0/24"
